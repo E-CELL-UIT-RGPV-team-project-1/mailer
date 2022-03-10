@@ -2,10 +2,10 @@
 
 if(isset($_POST['name']) && isset($_POST['email'])){
     $name = $_POST['name'];
-    $email = $_POST['email'];
+    //$email = $_POST['email'];
     $subject = $_POST['subject'];
     $body = $_POST['body'];
-    $file = $_POST['file'];
+    //$file = $_POST['file'];
 
     // echo "1 step done";
 
