@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .box1,.box2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+.box1 input, textarea{
+    width: 80%;
+    padding: 2px;
+    margin: 5px;
+}
+.box1 .classfile{
+    margin: auto;
+    width: auto;
+}
+.box1 .btn{
+    margin-top: 20px;
+    width: auto;
+}
+.box1 .btn:hover {
+    color: black;
+    background-color: rgb(155, 155, 218);
+    border-radius: 10px;
+}
